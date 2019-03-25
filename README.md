@@ -20,6 +20,7 @@ for **training**:
 * 5. Save the models to `model` folder
 * 6. Make prediction of test data using `ensemble_model_predict()`
 * 7. Evaluate the model performance using `model_eval()`
+* 8. Save the evaluation result to `evaluation` folder
 
 for **predicting**:
 
