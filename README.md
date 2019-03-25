@@ -11,16 +11,16 @@ A end-to-end machine learning model pipeline in game industry
 
 The pipeline does the following:
 
-    for **training**:
+* for **training**:
 
-    * 1. Load data from database: `load_data()` function
-    * 2. Preprocess data: `preprocessing_data()`
-    * 3. Save the preprocessed data to `data` folder
-    * 4. Build models using `build_models()`, return model list of common API ML models
-    * 5. Save the models to `model` folder
-    * 6. Make prediction of test data using `ensemble_model_predict()`
-    * 7. Evaluate the model performance using `model_eval()`
-    * 8. Save the evaluation result to `evaluation` folder
+** 1. Load data from database: `load_data()` function
+** 2. Preprocess data: `preprocessing_data()`
+** 3. Save the preprocessed data to `data` folder
+** 4. Build models using `build_models()`, return model list of common API ML models
+** 5. Save the models to `model` folder
+** 6. Make prediction of test data using `ensemble_model_predict()`
+** 7. Evaluate the model performance using `model_eval()`
+** 8. Save the evaluation result to `evaluation` folder
 
 for **predicting**:
 
